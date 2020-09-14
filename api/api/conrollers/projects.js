@@ -21,9 +21,9 @@ exports.projects_get_project = (req, res, next) => {
     .exec()
     .then((project) => {
       if (project) {
-        project.performanceDatas.forEach((item) => {
-          pathData.push({ id: item._id, pathName: item.pathName });
-        });
+        pathData = project.performanceDatas.filter(
+          (v, i, a) => a.findIndex((t) => t.pathName === v.pathName) === i
+        );
         res.status(200).json(pathData);
       } else {
         res
