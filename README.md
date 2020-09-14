@@ -42,7 +42,7 @@ You can track your performance statistics on Dashboard Page
 ![dashboardPage](https://user-images.githubusercontent.com/31351175/93127365-6d92e880-f6d6-11ea-936b-48fe485df73b.png)
 
 ```
-You can add and list projects on Add Lis Project Page
+You can add and list projects on Add List Project Page
 ```
 
 ![addListProjectPage](https://user-images.githubusercontent.com/31351175/93127769-26f1be00-f6d7-11ea-96da-3ed3d1f3e5aa.png)
