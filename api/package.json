@@ -1,0 +1,31 @@
+{
+  "name": "perf-analytics",
+  "version": "1.0.0",
+  "description": "Build simple Node.js Api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "mocha 'api/test/projects.js' --timeout 10000"
+  },
+  "keywords": [
+    "Node.js",
+    "restful",
+    "api"
+  ],
+  "author": "Burak Yagdiran",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "moment": "^2.28.0",
+    "mongoose": "^5.9.25",
+    "morgan": "^1.10.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.1.3",
+    "nodemon": "^2.0.4"
+  }
+}

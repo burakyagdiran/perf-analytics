@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List should render correctly in "debug" mode 1`] = `
+<div
+  className="list-container"
+>
+  <Table
+    className="table"
+    columns={
+      Array [
+        Object {
+          "dataIndex": "hostName",
+          "key": "hostName",
+          "title": "Projects",
+        },
+      ]
+    }
+    dataSource={Array []}
+    pagination={false}
+    rowKey="_id"
+  />
+</div>
+`;
+
+exports[`should render banner text correctly with given strings 1`] = `
+<div
+  className="list-container"
+>
+  <Table
+    className="table"
+    columns={
+      Array [
+        Object {
+          "dataIndex": "hostName",
+          "key": "hostName",
+          "title": "Projects",
+        },
+      ]
+    }
+    dataSource={Array []}
+    pagination={false}
+    rowKey="_id"
+  />
+</div>
+`;
+
+exports[`should render correctly with no props 1`] = `
+<div
+  className="list-container"
+>
+  <Table
+    className="table"
+    columns={
+      Array [
+        Object {
+          "dataIndex": "hostName",
+          "key": "hostName",
+          "title": "Projects",
+        },
+      ]
+    }
+    dataSource={Array []}
+    pagination={false}
+    rowKey="_id"
+  />
+</div>
+`;

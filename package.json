@@ -1,0 +1,11 @@
+{
+  "name": "perf-analytics",
+  "scripts": {
+    "setup-api": "cd ./api && npm i",
+    "setup-client": "cd ./client && npm i",
+    "start-api": "cd ./api && npm start",
+    "start-client": "cd ./client && npm start",
+    "test-api": "cd ./api && npm run test",
+    "test-client": "cd ./client && npm run test"
+  }
+}

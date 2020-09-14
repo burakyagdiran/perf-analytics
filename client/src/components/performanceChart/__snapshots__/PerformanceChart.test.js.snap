@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PerformanceChart should render correctly in "debug" mode 1`] = `
+<r
+  height="100%"
+  options={Object {}}
+  series={Array []}
+  type="line"
+  width="100%"
+/>
+`;
+
+exports[`should render banner text correctly with given strings 1`] = `
+<r
+  height="100%"
+  options={Object {}}
+  series={Array []}
+  type="line"
+  width="100%"
+/>
+`;
+
+exports[`should render correctly with no props 1`] = `
+<r
+  height="100%"
+  options={Object {}}
+  series={Array []}
+  type="line"
+  width="100%"
+/>
+`;
