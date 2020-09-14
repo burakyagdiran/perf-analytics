@@ -34,3 +34,7 @@ npm run start-client
 
 and it will run api at `http://localhost:8080`
 and it will run clien at `http://localhost:3000`
+
+```
+You can track your performance statistics on Dashboard Page
+![dashboardPage](https://user-images.githubusercontent.com/31351175/93127365-6d92e880-f6d6-11ea-936b-48fe485df73b.png)
